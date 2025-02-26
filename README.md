@@ -23,8 +23,6 @@ Narayana Hospital is a doctor appointment booking web application built using th
 ### ✅ Downloadable Appointment Slip
 - Get a confirmation slip after payment.
 
-### ✅ Admin Panel (Future Expansion)
-- Manage doctors and appointments.
 
 ## 🛠️ Tech Stack
 
@@ -40,7 +38,7 @@ Narayana Hospital is a doctor appointment booking web application built using th
 - MongoDB
 
 ### Authentication
-- Firebase (or JWT, if implemented)
+- Firebase 
 
 ### Payment Handling
 - UPI QR Code
@@ -50,11 +48,11 @@ Narayana Hospital is a doctor appointment booking web application built using th
 - 
 Install Dependencies (Frontend & Backend)
 # Navigate to frontend  
-cd client  
+cd Frontened
 npm install  
 
 # Navigate to backend  
-cd ../server  
+cd ../Backened  
 npm install  
 
 #Set Up Environment Variables
