@@ -9,13 +9,13 @@ Narayana Hospital is a doctor appointment booking web application built using th
 ## 🚀 Features
 
 ### ✅ User Authentication
-- Secure login and registration for patients.
-
+- Secure login and registration for patients. I have used firebase for authenticationand  data will be stored at firebase database.
+  
 ### ✅ Doctor Listing & Details
-- Browse doctors by specialization, experience, and fees.
+- Browse doctors by specialization or domain of specialist.This is done by using filter method of Reactjs.
 
 ### ✅ Appointment Booking
-- Select a doctor, date, and time for appointments.
+- Select a doctor, date, and time for  booking appointments then on clicking on click here link it will redirect user to payment page.
 
 ### ✅ Payment Integration
 - Users can pay fees using UPI via QR code.
@@ -79,13 +79,13 @@ cd Backened
 nodemon server.js 
 
 # Start frontend  
-cd client  
+cd Frontened 
 npm run dev 
 
 
-###🔗 Live Demo  https://appappointment-75586.web.app
+###🔗 Live Demo 
 
-Visit the Live Website
+Visit the Live Website   https://appappointment-75586.web.app
 
 ##💡 Future Enhancements
 
@@ -98,5 +98,4 @@ Visit the Live Website
 🔹 Online Prescription Upload: Allow patients to upload prescriptions.
 
 
-
-##🤝 Contributing
+## contact -  nikhilverma97988@gmail.com
