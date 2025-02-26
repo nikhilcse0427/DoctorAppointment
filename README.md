@@ -75,15 +75,15 @@ FIREBASE_MESSAGING_SENDER_ID=your-firebase-messaging-sender-id
 FIREBASE_APP_ID=your-firebase-app-id
 
 # Start backend  
-cd server  
-npm start  
+cd Backened  
+nodemon server.js 
 
 # Start frontend  
 cd client  
-npm start  
+npm run dev 
 
 
-###🔗 Live Demo
+###🔗 Live Demo  https://appappointment-75586.web.app
 
 Visit the Live Website
 
