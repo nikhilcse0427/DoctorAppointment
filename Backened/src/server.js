@@ -18,17 +18,18 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Middleware
-app.use(cors()); 
+app.use(cors());
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, '../../frontend/dist'))); // Corrected path
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../../frontend/dist', 'index.html')); // Corrected path
-});
-
-// Routes
+// API routes first
 app.use('/api', contactRoutes);
+
+// Serve frontend build if present (note: folder is `Frontened` in repo)
+const distPath = path.join(__dirname, '../../Frontened/dist');
+app.use(express.static(distPath));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(distPath, 'index.html'));
+});
 
 app.get("/", (req, res) => {
   res.send("Welcome to Server!");
